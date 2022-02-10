@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #00151A;
+}
+
+.logo {
+    max-width: 250px;
+    margin: 30px 30px 30px 30px;
+    width: 15%;
+    float: left
+}
+
+.heading {
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Revalia', cursive;
+    margin-bottom: 30px;
+    position: relative;
+    text-align: center;
+    letter-spacing: 2px;
+    top: 100px;
+    left: -10%;
+}
+
+.icon {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.icon-down {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+}
+
+.icon a,
+.icon-down a {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    /*background-color: #eee;
+    border-radius: 25px;*/
+    margin: 30px;
+    /* box-shadow: 3px 3px 10px #aeaeae;*/
+    text-align: center;
+    line-height: 90px;
+    font-size: 100px;
+    /* border: 3px solid #eee;8?*/
+    color: #66E2FF;
+    transition: .3s;
+}
+
+@media screen and (max-width: 768px) {
+    .icon a,
+    .icon-down a {
+        font-size: 50px;
+        line-height: 50px;
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+    }
+    .heading {
+        font-size: 20px;
+        top: 80px;
+        left: -20%;
+    }
+}
+
+.icon a:hover,
+.icon-down a:hover {
+    transform: scaleX(1.1) scaleY(1.1);
+    color: #fff;
+}
